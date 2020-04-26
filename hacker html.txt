@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document5</title>
+    <link rel="stylesheet" href="style4.css">
+  
+</head>
+<body>
+    <div class="main">
+        <header id="game">
+            <div id = "caw1">
+                <span id="calc1">time</span><span id="calc2">best time</span>
+                <span id="calc3">0:00</span><span id="calc4">0:00</span>
+            </div>
+        </header>
+        <div id="ca">
+            <div id="cac">
+                click <strong>the numbers</strong> <br>as quickly as u can!
+            </div>
+            <div id="cas">
+                <span class="cas1">n</span>ew <span class="cas1">g</span>ame
+            </div>
+        </div>
+        <div id="caca">
+           <div id="cacb">
+               <div id = cacc>click to start</div>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+    <script src="node3.js"></script>
+</body>
+</html>
