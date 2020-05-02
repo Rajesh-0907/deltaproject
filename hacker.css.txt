@@ -1,0 +1,121 @@
+body {
+  background-color: black;
+}
+
+.main {
+  background-color: rgb(63, 59, 59);
+  width: 550px;
+  height: 710px;
+  margin: 0px auto;
+  padding: 30px;
+  font-family: sans-serif;
+}
+
+#game {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+#calc1,
+#calc2 {
+  color: white;
+  margin: 10px;
+  margin-bottom: 0px;
+
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#calc3,
+#calc4 {
+  color: white;
+  margin: 10px;
+
+  font-weight: bolder;
+  font-size: 20px;
+  display: inline;
+}
+#calc1 {
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+#calc1 {
+  margin-left: 15px;
+}
+
+#caw1 {
+  display: flexbox;
+  margin-left: 290px;
+}
+
+#calc2 {
+  position: relative;
+  left: 60px;
+  text-transform: uppercase;
+}
+#calc3 {
+  padding: 10px;
+}
+#calc4 {
+  position: relative;
+  left: 80px;
+}
+
+#ca {
+  margin-bottom: 150px;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+#cac {
+  position: absolute;
+  color: green;
+}
+#cas {
+  position: relative;
+  left: 350px;
+
+  font-weight: bolder;
+  color: green;
+}
+
+.cas1 {
+  text-transform: uppercase;
+}
+
+#caca {
+  border: 1px solid rgb(100, 99, 99);
+  border-radius: 10px;
+  height: 390px;
+  padding: 25px;
+}
+#cacb {
+  text-align: center;
+  margin: 120px auto;
+}
+#cacc:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+#cacc {
+  font-size: 50px;
+  color: green;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    margin-left: 200px;
+    height: 1200px;
+    width: 100%;
+  }
+  #game {
+    margin-bottom: 200px;
+  }
+  #ca {
+    margin-bottom: 300px;
+  }
+  #caca {
+    height: 400px;
+    font-size: 80px;
+  }
+}
