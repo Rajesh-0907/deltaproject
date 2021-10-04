@@ -1,30 +1,82 @@
 @import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 
-body {
+html,body {
 
- width: 100%;
- height: 100%;
+ width: 100vw;
+ height: 100vh;
  box-sizing: border-box;
  display: flex;
- flex-wrap: wrap;
  background-color: black;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-evenly;
 }
 
 .main {
+
   background-color: rgb(63, 59, 59);
-  width: 550px;
-  height: 800px;
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);
-
-
+  width: 500px;
+  height: 97%;
+  border-radius: 10px;
+  
+  margin-right: 0;
   font-family: sans-serif;
   box-sizing: border-box;
+  padding: 10px;
+  margin: 0px;
+
 }
 
+#calculator{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+#caw1{
+  width: 50%;
+  height: 80%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
 
+#ca{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 10px;
+  color: green;
+  font-size: 1.2rem;
+}
+
+#caca{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+
+}
+
+#cacb{
+font-size: 1.2rem;
+color: white;
+}
+/*
 #calc1,
 #calc2 {
   color: white;
@@ -77,7 +129,7 @@ i{
 }
 
 #ca {
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   margin-top: 90px;
   font-size: 30px;
 }
@@ -101,7 +153,7 @@ i{
 #caca {
   border: 1px solid rgb(100, 99, 99);
   border-radius: 10px;
-  height: 390px;
+  height: 330px;
   padding: 25px;
   margin: 4px;
 }
@@ -122,3 +174,9 @@ i{
    font-size: 100px;
  }
 
+*/
+@media (max-width: 576px){
+  .main{
+    width: 90%;
+  }
+}

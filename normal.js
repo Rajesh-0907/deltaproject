@@ -121,7 +121,7 @@ function fuctGame() {
   bas1.style.gridTemplateColumns = "repeat(5, auto) ";
   bas1.style.gridTemplateRows = "repeat(4, auto)";
   bas1.style.margin = "0px";
-  bas1.style.fontSize = "63px";
+  bas1.style.fontSize = "45px";
 
   bas2[0].addEventListener("click", () => firstfunction1(bas2[0]));
   bas2[1].addEventListener("click", () => firstfunction1(bas2[1]));
