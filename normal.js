@@ -27,12 +27,11 @@ var interval;
 var count = 4;
 function myFunction2() {
   bas5[0].removeEventListener("click", myFunction2);
-  bas5[0].addEventListener("click", myFunction);
   var nam1 = document.createElement("div");
   var nam2 = document.createElement("div");
   bas1.appendChild(nam1);
   bas1.appendChild(nam2);
-
+  myFunction();
   console.log(bas5);
 }
 
@@ -43,9 +42,7 @@ function myFunction() {
 
   count = 4;
   interval = window.clearInterval(fuctCountdown, 1000);
-
   console.log(bas5);
-  bas5[0].removeEventListener("click", myFunction);
   bas5[0].style.fontSize = "150px";
   bas5[0].style.color = "rgb(401,399,399)";
   fuctCountdown();
